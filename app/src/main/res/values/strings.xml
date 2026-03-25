@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VocabHeroes Kiosk Browser</string>
+    <string name="loading">Wird geladen...</string>
+    <string name="error_title">Verbindung fehlgeschlagen</string>
+    <string name="error_message_default">Die Seite konnte nicht geladen werden. Bitte Netzwerk prüfen und erneut versuchen.</string>
+    <string name="retry">Erneut laden</string>
+</resources>
+

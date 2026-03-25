@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="error_background">#1F1F1F</color>
+    <color name="error_text">#F2F2F2</color>
+    <color name="accent_green">#3DDC84</color>
+</resources>
+
