@@ -19,11 +19,11 @@ android {
             useSupportLibrary = true
         }
 
-        buildConfigField("String", "START_URL", "\"https://www.google.de\"")
+        buildConfigField("String", "START_URL", "\"https://mediacenter.djgtqsjqwjkw80hj.myfritz.net:8081\"")
         buildConfigField(
             "String",
             "ALLOWED_HOSTS",
-            "\"google.de,www.google.de,google.com,www.google.com,consent.google.com\""
+            "\"mediacenter.djgtqsjqwjkw80hj.myfritz.net\""
         )
     }
 
