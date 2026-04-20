@@ -7,7 +7,7 @@ Native Android-App zur Anzeige genau einer festen URL in einer abgesicherten Vol
 - Keine Adresszeile, keine Tabs, keine freie Browsernavigation.
 - Fullscreen/immersive Darstellung.
 - Klare Fehleransicht mit Retry.
-- Family-Link-kompatibel (normale App, kein Device-Owner-/LockTask-Zwang).
+- Normale App ohne Device-Owner-/LockTask-Zwang.
 
 ## Konfiguration
 Die Start-URL und erlaubten Hosts sind in `app/build.gradle.kts` hinterlegt:
@@ -55,5 +55,5 @@ Datei: `app/src/test/java/com/vocabheroes/kioskbrowser/UrlPolicyTest.kt`
 - A-004: normale Installation/Deinstallation -> umgesetzt (normale App, kein Device Owner).
 - A-005 / Fehlerbehandlung: klare Fehleransicht mit Retry -> umgesetzt.
 - A-006: minimale Berechtigungen + sichere WebView-Konfiguration -> umgesetzt.
-- A-007: Family-Link-Kontrolle bleibt wirksam -> umgesetzt durch regulären App-Betrieb.
+- A-007: normale Installation/Deinstallation ohne Device-Owner-Zwang -> umgesetzt.
 - A-008 (Soll): Erweiterbarkeit für Admin/Whitelist -> vorbereitet über zentrale Policy/Config.
